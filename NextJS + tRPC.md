@@ -1,4 +1,10 @@
-
+---
+tags:
+  - Server-Components
+  - RSC
+  - tRPC
+  - NextJS
+---
 ## React Server Components + tRPC Compatibility
 
 I have run into an issue were the conventional method of using tRPC server side, the tRPC caller, causes the app to hang indefinitely.

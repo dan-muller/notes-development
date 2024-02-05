@@ -13,6 +13,7 @@ I have run into an issue were the conventional method of using tRPC server side,
 const trpc = appRouter.createCaller(await createContext());
 export default trpc;
 ```
+> *reference: [stack overflow](https://stackoverflow.com/a/77279538)*
 
 Even with the settings to allow top level await, I think that NextJS does not like this.
 
